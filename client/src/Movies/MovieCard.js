@@ -4,7 +4,7 @@ import  { Link } from "react-router-dom";
 const MovieCard = props => {
     return (
       <div className="movie-card">
-        <Link to={`/movie-list/${props.id}`}>
+        <Link style={{textDecoration:"none"}}to={`/movie-list/${props.id}`}>
           <h2>{props.title}</h2>
         </Link>
         <div className="movie-director">

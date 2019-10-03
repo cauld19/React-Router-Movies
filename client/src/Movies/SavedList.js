@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import MovieList from "./MovieList"
+import MovieList from "./MovieList";
 
 const SavedList = props => (
   <div className="saved-list">
